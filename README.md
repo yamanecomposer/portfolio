@@ -1,0 +1,2 @@
+# kawaii-notes
+label site📃
