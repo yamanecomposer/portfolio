@@ -59,4 +59,15 @@ nav a:hover {
   padding: 20px;  /* 周囲に少し余白を追加 */
 }
 
+/* サイト全体の文字色を黒に設定 */
+body {
+  color: black; /* 全体の文字色を黒に */
+}
+
+a {
+  color: black; /* リンクの色を黒に */
+  text-decoration: none; /* アンダーラインを消す */
+}
+
+
 
