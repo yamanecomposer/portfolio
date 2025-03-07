@@ -17,6 +17,12 @@ nav {
   height: 100%; /* 画面いっぱいにメニューを固定 */
 }
 
+.nav-logo {
+    width: 150px;  /* 画像の横幅を150pxに */
+    display: block; /* 画像をブロック要素にして改行 */
+    margin: 0 auto 20px; /* 上下の余白を調整（下に20pxの余白） */
+}
+
 nav ul {
   list-style: none;
   padding: 0;
