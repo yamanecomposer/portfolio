@@ -4,12 +4,13 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 nav {
   width: 200px; /* メニューの幅 */
-  background-color: #333;
-  color: white;
+  background-color: white;
+  color: #333;
   padding: 20px;
   position: fixed;
   height: 100%; /* 画面いっぱいにメニューを固定 */
@@ -42,7 +43,7 @@ h1, h2 {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #333;
-  color: white;
+  background-color: white;
+  color: #333;
 }
 
