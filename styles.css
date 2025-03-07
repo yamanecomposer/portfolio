@@ -1,1 +1,48 @@
+/* 全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 200px; /* メニューの幅 */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  height: 100%; /* 画面いっぱいにメニューを固定 */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 20px 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+section {
+  margin-left: 220px; /* メニューの幅を避ける */
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
 
