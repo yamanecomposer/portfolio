@@ -1,8 +1,8 @@
 <nav>
   <ul>
     <li><a href="/kawaii-notes/">Top</a></li>
-    <li><a href="/kawaii-notes/about.html">About</a></li>
-    <li><a href="/kawaii-notes/catalogue.html">Catalogue</a></li>
-    <li><a href="/kawaii-notes/order.html">Order</a></li>
+    <li><a href="/kawaii-notes/about.html">about</a></li>
+    <li><a href="/kawaii-notes/catalogue.html">catalogue</a></li>
+    <li><a href="/kawaii-notes/order.html">order</a></li>
   </ul>
 </nav>
