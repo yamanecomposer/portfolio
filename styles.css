@@ -16,7 +16,7 @@ nav {
   flex-direction: column;  /* 縦並びにする */
   align-items: flex-start;  /* 左寄せにする */
   text-align: left;
-  padding: ２0px;
+  padding: 0px;
   position: fixed;
   height: 100%; /* 画面いっぱいにメニューを固定 */
 }
