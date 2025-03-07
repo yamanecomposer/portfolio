@@ -12,9 +12,11 @@ nav {
   width: 200px; /* メニューの幅 */
   background-color: white;
   color: black;
+  display: flex;
+  flex-direction: column;  /* 縦並びにする */
+  align-items: flex-start;  /* 左寄せにする */
   padding: 20px;
   position: fixed;
-  align-items: left; 
   height: 100%; /* 画面いっぱいにメニューを固定 */
 }
 
