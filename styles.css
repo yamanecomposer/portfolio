@@ -13,6 +13,9 @@ nav {
   background-color: white;
   color: black;
   display: flex;
+  flex-direction: column;  /* 縦並びにする */
+  align-items: flex-start;  /* 左寄せにする */
+  text-align: left;
   padding: 0px;
   position: fixed;
   height: 100%; /* 画面いっぱいにメニューを固定 */
@@ -22,6 +25,7 @@ nav {
   width: 180px;  /* 画像の横幅を150pxに */
   display: block; /* 画像をブロック要素にして改行 */
   margin-left: 0; /* まずは余計な余白をなくす */
+  margin: 0 auto 20px; /* 上下の余白を調整（下に20pxの余白） */
   margin: 0;
   padding: 0;
   padding-left: 0;
@@ -43,6 +47,8 @@ nav ul li a {
 }
 
 section {
+  margin-left: 220px; /* メニューの幅を避ける */
+  padding: 20px;
   margin-left: 200px; /* メニューの幅を避ける */
   padding: 0px;
 }
@@ -78,6 +84,7 @@ a {
   color: black; /* リンクの色を黒に */
   text-decoration: none; /* アンダーラインを消す */
 }
+
 
 
 
