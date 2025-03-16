@@ -8,6 +8,7 @@ body {
   background-color: white;
   color: black;
   font-size: 14px;
+  overflow-x: hidden; /* 横スクロールを防ぐ */
 }
 
 /* ナビゲーションメニュー */
@@ -90,6 +91,7 @@ section a:hover {
     position: relative;
     top: 0;  /* 上に寄せる */
     left: 0;  /* 左端に寄せる */
+    box-sizing: border-box; /* パディングやボーダーが幅に含まれるように */
   
   .nav-logo {
     width: 0;  /* 画像を非表示にするために幅を0に設定 */
