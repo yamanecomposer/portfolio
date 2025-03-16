@@ -84,6 +84,8 @@ section a:hover {
     text-align: left;
     height: auto; /* 高さを自動に */
     position: relative; /* 固定しない */
+    top: 0;  /* 上に寄せる */
+    left: 0;  /* 左端に寄せる */
   }
 
   .nav-logo {
