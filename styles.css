@@ -141,8 +141,8 @@ a {
     
   /* メインセクション */
   section {
-    margin-top: 60px;
-    margin-left: 0; /* 左の余白をなくす */
+    margin-top: 40px;
+    margin-left: 5px;
     width: 100%; /* 画面いっぱい使う */
   }
   
