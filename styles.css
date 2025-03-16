@@ -136,12 +136,20 @@ a {
   nav ul li a {
     font-size: 14px; /* メニューリンクのフォントサイズを小さく */
   }
-  
+
+  /* h1とメニューを縦に2列に配置 */
+  nav {
+    flex-direction: column; /* 縦並び */
+    justify-content: space-between; /* 上下にスペースを持たせる */
+    height: 100vh; /* ナビゲーションメニューの高さを100%に設定 */
+  }
+    
   /* メインセクション */
   section {
     margin-left: 0; /* ナビゲーションの影響をなくす */
     padding: 0px;
     width: 100%;  /* 幅を100%にして、画面いっぱいに広げる */
+    box-sizing: border-box;
   }
   
   /* メインエリアの画像 */
