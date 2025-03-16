@@ -100,7 +100,7 @@ a {
     position: relative; /* 固定を解除して通常配置 */
     display: flex;
     flex-direction: row;  /* 横並びに変更！ */
-    justify-content: flex-start; /* 左寄せ */
+    justify-content: center; /* ← 中央寄せ */
     align-items: center;  /* 中央揃え */
     padding: 10px 0;
   }
@@ -136,9 +136,7 @@ a {
   /* メインセクション */
   section {
     margin-left: 0; /* 左の余白をなくす */
-    margin-top: 10px; /* ナビの下に適度な余白 */
     width: 100%; /* 画面いっぱい使う */
-    padding: 10px;
   }
   
   /* メインエリアの画像 */
