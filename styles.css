@@ -77,6 +77,7 @@ section-img {
     flex-direction: column; /* 縦並びに */
     align-items: flex-start; 
     height: auto; /* 高さを自動に */
+    position: relative; /* 固定しない */
   }
 
   nav img {
