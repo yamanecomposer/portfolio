@@ -71,6 +71,10 @@ section-img {
   display: block;
 }
 
+section a:hover {
+  color: gray; /* ホバー時にグレーにする */
+}
+
 /* メディアクエリ　スマホ用のスタイル（画面幅が小さい時） */
 @media screen and (max-width: 768px) {
   nav {
