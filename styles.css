@@ -8,6 +8,15 @@ body {
   color: black;
   font-size: 12px;
   display: block;
+  overflow-x: hidden;
+}
+
+/* ページ全体を中央に配置するコンテナ */
+.container {
+  width: 90%;  /* 画面幅の90% */
+  max-width: 1000px;  /* 最大幅を1000px */
+  margin: 0 auto;  /* 左右の余白を自動調整して中央に配置 */
+  padding: 20px;  /* 周囲に少し余白を追加 */
 }
 
 /* ナビゲーションメニュー */
@@ -22,6 +31,7 @@ nav {
   margin: 0;
   padding: 0px;
   position: fixed;
+  height: 100%; /* メニューが全画面に広がるように */
 }
 
 /* ナビゲーションのロゴ（画像） */
@@ -60,7 +70,8 @@ nav a:hover {
 section {
   margin-left: 220px; /* メニューの幅を避ける */
   padding: 0px;
-  width: 100%;  
+  width: 100%; 
+  box-sizing: border-box; /* パディングも幅に含める */
 }
 
 /* メインエリアの画像設定 */
@@ -131,7 +142,6 @@ a {
     margin-left: 0; /* ナビゲーションの影響をなくす */
     padding: 0px;
     width: 100%;  /* 幅を100%にして、画面いっぱいに広げる */
-    box-sizing: border-box; /* パディングも幅に含める */
   }
   
   /* メインエリアの画像 */
@@ -157,14 +167,6 @@ footer {
   color: black;
 }
 
-
-/* ページ全体を中央に配置するコンテナ */
-.container {
-  width: 90%;  /* 画面幅の90% */
-  max-width: 1000px;  /* 最大幅を1000px */
-  margin: 0 auto;  /* 左右の余白を自動調整して中央に配置 */
-  padding: 20px;  /* 周囲に少し余白を追加 */
-}
 
 
 
