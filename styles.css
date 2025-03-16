@@ -100,7 +100,7 @@ a {
     position: relative; /* 固定を解除して通常配置 */
     display: flex;
     flex-direction: row;  /* 横並びに変更！ */
-    justify-content: center; /* ← 中央寄せ */
+    justify-content: flex-start;
     align-items: center;  /* 中央揃え */
     padding: 10px 0;
   }
