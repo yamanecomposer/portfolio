@@ -80,17 +80,10 @@ section a:hover {
 @media screen and (max-width: 768px) {
   nav {
     width: 100%; /* ナビゲーションメニューの幅を100%に設定 */
-    display: flex; 
-    flex-direction: column;  /* 縦並びに変更 */
-    justify-content: flex-start; /* 左寄せに */
-    align-items: flex-start;  /* 上寄せ */
-    height: 100%;  /* 高さを100%に設定 */
-    margin: 0; /* マージンをゼロに設定 */
-    padding: 0; /* パディングをゼロに設定 */
-    position: relative
-    top: 0;  /* 上に寄せる */
-    left: 0;  /* 左端に寄せる */
-  }
+    position: relative; /* メニューを固定しない */
+    height: auto;  /* 高さを自動調整 */
+    flex-direction: row; /* 横並びに変更 */
+    padding: 10px 20px; /* 少しのパディングを追加 */
   
   .nav-logo {
     width: 80px;  /* スマホで小さくする画像サイズ */
@@ -105,12 +98,14 @@ section a:hover {
     padding: 0;         /* 画像のパディングを削除 */
   }
   
-  /* メニューリストを縦に並べる */
+  /* メニューリストを横並びにする */
   nav ul {
     display: flex;
     list-style: none;         /* デフォルトのリストスタイルを削除 */
     padding-left: 0;          /* 左側の余白を取り除く */
     margin-left: 0;          /* 左側の余白を取り除く */
+    justify-content: flex-start;  /* 左寄せに */
+    flex-wrap: wrap; /* スペースが足りない場合は折り返す */
   }
   
   /* 各メニュー項目のスタイル */
@@ -128,6 +123,7 @@ section a:hover {
     margin-left: 0; /* ナビゲーションの影響をなくす */
     padding: 0px;
     width: 100%;  /* 幅を100%にして、画面いっぱいに広げる */
+    box-sizing: border-box; /* パディングも幅に含める */
   }
   
   /* メインエリアの画像 */
