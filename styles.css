@@ -81,8 +81,9 @@ section a:hover {
   nav {
     width: 100%; /* メニューの幅を全画面に広げる */
     display: flex; /* 横並びにする */
-    flex-direction: row; /* アイテムを横並びに */
+    flex-direction: column;  /* 縦並びに変更 */
     justify-content: flex-start; /* 左寄せに */
+    align-items: flex-start;  /* 上寄せ */
     position: relative; /* 固定しない */
     top: 0;  /* 上に寄せる */
     left: 0;  /* 左端に寄せる */
@@ -90,9 +91,8 @@ section a:hover {
   
   /* ナビゲーションの1列目（画像とh1） */
   .nav-logo {
-    width: 40px;  /* スマホで小さくする画像サイズ */
+    width: 80px;  /* スマホで小さくする画像サイズ */
     height: auto; /* 高さは自動調整 */
-    margin-right: 10px; /* 画像と文字の間に少しスペースを追加 */
     max-width: 100%; /* 親要素に合わせて画像サイズを縮小 */
   }
   
@@ -102,12 +102,10 @@ section a:hover {
     margin: 0; /* 余計なマージンを取り除く */
   }
 
-  /* ナビメニューの2列目（メニューリンク） */
   nav ul {
     display: flex;
     list-style: none;         /* デフォルトのリストスタイルを削除 */
     padding-left: 0;          /* 左側の余白を取り除く */
-    margin-left: 20px;        /* 画像とh1から少し離す */
   }
 
   nav ul li {
