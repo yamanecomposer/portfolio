@@ -134,13 +134,6 @@ a {
   nav ul li a {
     font-size: 14px; /* メニューリンクのフォントサイズを小さく */
   }
-
-  /* h1とメニューを縦に2列に配置 */
-  nav {
-    flex-direction: column; /* 縦並び */
-    justify-content: space-between; /* 上下にスペースを持たせる */
-    height: 100vh; /* ナビゲーションメニューの高さを100%に設定 */
-  }
     
   /* メインセクション */
   section {
