@@ -86,10 +86,7 @@ section a:hover {
   }
 
   nav img {
-    width: 20px; /* 画像を小さく */
-    height: auto; /* 高さは自動調整 */
-    max-width: 100%; /* 親要素に合わせて画像サイズを縮小 */
-    margin-bottom: 0px;
+    display: none;  /* 画像を非表示 */
   }
 
   nav h1 {
@@ -112,7 +109,7 @@ section a:hover {
 
   section {
     margin-left: 0; /* ナビゲーションの影響をなくす */
-    padding: 20px;
+    padding: 0px;
   }
 }
 
