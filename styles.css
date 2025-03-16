@@ -28,7 +28,7 @@ nav {
   flex-direction: column;  /* 縦並び！ */
   align-items: flex-start;
   text-align: left;
-  position: fixed;
+  position: absolute;
   height: 100vh; /* 画面の高さいっぱい */
   top: 0;
   left: 0;
@@ -103,6 +103,7 @@ a {
     justify-content: flex-start; /* 左寄せ */
     align-items: center;  /* 中央揃え */
     padding: 10px 0;
+  }
   
   .nav-logo {
     width: 0;  /* 画像を非表示にするために幅を0に設定 */
