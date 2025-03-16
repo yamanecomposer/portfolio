@@ -122,7 +122,8 @@ section a:hover {
   nav ul li a {
     font-size: 14px; /* メニューリンクのフォントサイズを小さく */
   }
-
+  
+  /* メインセクション */
   section {
     margin-left: 0; /* ナビゲーションの影響をなくす */
     padding: 0px;
@@ -138,7 +139,10 @@ section a:hover {
 
 /* サイト全体の文字色を黒に設定 */
 body {
-  color: black; /* 全体の文字色を黒に */
+  color: black; /* 全体の文字色を黒に */¥
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden; /* 横スクロールを防ぐ */
 }
 
 a {
