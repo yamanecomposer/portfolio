@@ -80,7 +80,8 @@ section a:hover {
   nav {
     width: 100%; /* メニューの幅を全画面に広げる */
     flex-direction: column; /* 縦並びに */
-    align-items: flex-start; 
+    align-items: flex-start;
+    text-align: left;
     height: auto; /* 高さを自動に */
     position: relative; /* 固定しない */
   }
@@ -102,7 +103,7 @@ section a:hover {
   }
 
   nav ul li {
-    margin: 0 10px;
+    margin: 0 0px;
   }
 
   nav ul li a {
