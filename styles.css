@@ -7,7 +7,7 @@ body {
   padding: 0;
   background-color: white;
   color: black;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* ナビゲーションメニュー */
@@ -74,6 +74,11 @@ section-img {
 
 section a:hover {
   color: gray; /* ホバー時にグレーにする */
+}
+
+a {
+  color: black; /* リンクの色を黒に */
+  text-decoration: none; /* アンダーラインを消す */
 }
 
 /* メディアクエリ　スマホ用のスタイル（画面幅が小さい時） */
@@ -143,11 +148,6 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden; /* 横スクロールを防ぐ */
-}
-
-a {
-  color: black; /* リンクの色を黒に */
-  text-decoration: none; /* アンダーラインを消す */
 }
 
 /* フッター */
