@@ -64,11 +64,10 @@ section {
 
 /* メインエリアの画像設定 */
 section img {
-  width: 100%; /* 親要素に合わせて横幅100% */
-  max-width: 1000px; /* 画像の最大幅を指定 */
-  height: auto; /* 高さは自動調整 */
-  display: block; /* ブロック要素にして改行 */
-  margin: 20px 0; /* 画像上下に余白 */
+  max-width: calc(100% - 220px);  /* ナビゲーションの幅を差し引いた幅に調整 */
+  height: auto;
+  display: block;
+  margin-left: 0;  /* 画像の左端を合わせるため、余白をなくす */
 }
 
 /* サイト全体の文字色を黒に設定 */
