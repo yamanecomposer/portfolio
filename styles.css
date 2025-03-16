@@ -9,6 +9,7 @@ body {
   font-size: 14px;
 }
 
+/* ナビゲーションメニュー */
 nav {
   width: 200px; /* メニューの幅 */
   background-color: white;
@@ -22,6 +23,7 @@ nav {
   height: 100%; /* 画面いっぱいにメニューを固定 */
 }
 
+/* ナビゲーションのロゴ（画像） */
 .nav-logo {
   width: 150px;  /* 画像の横幅を150pxに */
   display: block; /* 画像をブロック要素にして改行 */
@@ -32,6 +34,7 @@ nav {
   padding-left: 0;
 }
 
+/* ナビゲーションメニューのリスト */
 nav ul {
   list-style: none;
   padding: 0;
@@ -47,6 +50,11 @@ nav ul li a {
   font-size: 18px;
 }
 
+nav a:hover {
+  color: gray; /* ホバー時にグレーにする（お好みで） */
+}
+
+/* メインコンテンツのレイアウト */
 section {
   margin-left: 220px; /* メニューの幅を避ける */
   padding: 20px;
@@ -54,26 +62,13 @@ section {
   padding: 0px;
 }
 
-h1, h2 {
-  color: black;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: white;
-  color: black;
-}
-nav a:hover {
-  color: gray; /* ホバー時にグレーにする（お好みで） */
-}
-
-/* ページ全体を中央に配置するコンテナ */
-.container {
-  width: 90%;  /* 画面幅の90% */
-  max-width: 1000px;  /* 最大幅を1000px */
-  margin: 0 auto;  /* 左右の余白を自動調整して中央に配置 */
-  padding: 20px;  /* 周囲に少し余白を追加 */
+/* メインエリアの画像設定 */
+section img {
+  width: 100%; /* 親要素に合わせて横幅100% */
+  max-width: 1000px; /* 画像の最大幅を指定 */
+  height: auto; /* 高さは自動調整 */
+  display: block; /* ブロック要素にして改行 */
+  margin: 20px 0; /* 画像上下に余白 */
 }
 
 /* サイト全体の文字色を黒に設定 */
@@ -85,6 +80,25 @@ a {
   color: black; /* リンクの色を黒に */
   text-decoration: none; /* アンダーラインを消す */
 }
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+
+/* ページ全体を中央に配置するコンテナ */
+.container {
+  width: 90%;  /* 画面幅の90% */
+  max-width: 1000px;  /* 最大幅を1000px */
+  margin: 0 auto;  /* 左右の余白を自動調整して中央に配置 */
+  padding: 20px;  /* 周囲に少し余白を追加 */
+}
+
+
 
 
 
