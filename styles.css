@@ -29,8 +29,8 @@ nav {
   flex-direction: column;  /* 縦並び！ */
   align-items: flex-start;
   text-align: left;
-  position: absolute;
-  height: 100vh; /* 画面の高さいっぱい */
+  position: relative;
+  height: auto; /* 高さは自動調整 */
   top: 0;
   left: 0;
   padding: 10px;
@@ -71,9 +71,8 @@ nav a:hover {
 
 /* メインコンテンツのレイアウト */
 section {
-  margin-left: 200px; /* ナビの幅分ずらす */
-  padding: 20px;
-  width: calc(100% - 200px); /* 残りの幅を全部使う */
+  margin-left: 20px; /* ナビと適度な余白を確保 */
+  width: calc(100% - 220px); /* ナビの幅を考慮 */
 }
 
 /* メインエリアの画像設定 */
