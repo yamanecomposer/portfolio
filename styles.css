@@ -60,6 +60,7 @@ section {
   padding: 20px;
   margin-left: 200px; /* メニューの幅を避ける */
   padding: 0px;
+  position: relative;  /* z-indexの調整のため */
 }
 
 /* メインエリアの画像設定 */
@@ -68,6 +69,7 @@ section img {
   height: auto;
   display: block;
   margin-left: 0;  /* 画像の左端を合わせるため、余白をなくす */
+  z-index: 1;  /* メインコンテンツの領域内に収めるためにz-indexを指定 */
 }
 
 /* サイト全体の文字色を黒に設定 */
