@@ -85,8 +85,10 @@ section a:hover {
     position: relative; /* 固定しない */
   }
 
-  nav img {
-    display: none;  /* 画像を非表示 */
+  .nav-logo {
+    width: 40px;  /* スマホで小さくする画像サイズ */
+    height: auto; /* 高さは自動調整 */
+    max-width: 100%; /* 親要素に合わせて画像サイズを縮小 */
   }
 
   nav h1 {
