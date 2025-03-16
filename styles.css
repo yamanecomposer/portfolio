@@ -128,7 +128,12 @@ section a:hover {
     padding: 0px;
     width: 100%;  /* 幅を100%にして、画面いっぱいに広げる */
   }
- 
+
+  .container {
+    width: 100%;
+    max-width: 100%; /* 画面全体を占めるように */
+    padding: 10px;  /* 少し余白を追加 */
+  
   /* メインエリアの画像 */
   .section-image {
     max-width: 100%;  /* 親要素の幅に収まるように */
