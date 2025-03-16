@@ -6,7 +6,7 @@ body {
   padding: 0;
   background-color: white;
   color: black;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   overflow-x: hidden;
 }
@@ -147,6 +147,7 @@ a {
     margin-left: 0; /* ナビゲーションの影響をなくす */
     padding: 0px;
     width: 100%;  /* 幅を100%にして、画面いっぱいに広げる */
+    left: 0; /* 左端に固定 */
     box-sizing: border-box;
   }
   
