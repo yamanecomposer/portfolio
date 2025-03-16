@@ -79,10 +79,9 @@ section a:hover {
 @media screen and (max-width: 768px) {
   nav {
     width: 100%; /* メニューの幅を全画面に広げる */
-    flex-direction: column; /* 縦並びに */
-    align-items: flex-start;
-    text-align: left;
-    height: auto; /* 高さを自動に */
+    display: flex; /* 横並びにする */
+    flex-direction: row; /* アイテムを横並びに */
+    justify-content: flex-start; /* 左寄せに */
     position: relative; /* 固定しない */
     top: 0;  /* 上に寄せる */
     left: 0;  /* 左端に寄せる */
@@ -91,12 +90,14 @@ section a:hover {
   .nav-logo {
     width: 40px;  /* スマホで小さくする画像サイズ */
     height: auto; /* 高さは自動調整 */
+    margin-right: 10px; /* 画像と文字の間に少しスペースを追加 */
     max-width: 100%; /* 親要素に合わせて画像サイズを縮小 */
   }
 
   nav h1 {
     font-size: 18px; /* タイトルを小さく */
     margin-bottom: 0px;
+    margin: 0; /* 余計なマージンを取り除く */
   }
 
   nav ul {
