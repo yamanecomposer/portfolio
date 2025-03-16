@@ -94,12 +94,13 @@ section a:hover {
 
   nav h1 {
     font-size: 18px; /* タイトルを小さく */
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   nav ul {
     display: flex;
     flex-direction: row; /* メニュー項目を横並びに */
+    margin-top: 0;
   }
 
   nav ul li {
