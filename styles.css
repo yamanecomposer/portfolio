@@ -135,6 +135,7 @@ a {
     
   /* メインセクション */
   section {
+    margin-top: 40; 
     margin-left: 0; /* 左の余白をなくす */
     width: 100%; /* 画面いっぱい使う */
   }
