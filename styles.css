@@ -60,6 +60,7 @@ nav a:hover {
 section {
   margin-left: 220px; /* メニューの幅を避ける */
   padding: 0px;
+  width: 100%;  
 }
 
 /* メインエリアの画像設定 */
