@@ -2,12 +2,12 @@
 /* 通常のデスクトップ表示（画面が広いとき） */
 body {
   font-family: 'Arial', sans-serif;
-  display: flex;
   margin: 0;
   padding: 0;
   background-color: white;
   color: black;
   font-size: 12px;
+  display: block;
 }
 
 /* ナビゲーションメニュー */
