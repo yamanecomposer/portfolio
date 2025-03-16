@@ -115,6 +115,12 @@ section a:hover {
     margin-left: 0; /* ナビゲーションの影響をなくす */
     padding: 0px;
   }
+ 
+  /* メインエリアの画像 */
+  .section-image {
+    max-width: 100%;  /* 親要素の幅に収まるように */
+    height: auto;  /* 縦横比を保って自動で調整 */
+  }
 }
 
 /* サイト全体の文字色を黒に設定 */
