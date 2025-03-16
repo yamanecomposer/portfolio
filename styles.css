@@ -58,18 +58,14 @@ nav a:hover {
 section {
   margin-left: 220px; /* メニューの幅を避ける */
   padding: 20px;
-  margin-left: 200px; /* メニューの幅を避ける */
-  padding: 0px;
-  position: relative;  /* z-indexの調整のため */
 }
 
 /* メインエリアの画像設定 */
-section img {
-  margin-left: 220px; /* メニューの幅を避ける */
+section-img {
+  max-width: 100%; /* 画像がコンテナ内に収まるように */
+  margin-left: 20px; /* 文字の開始位置と合わせるための余白 */
   height: auto;
   display: block;
-  margin-left: 0;  /* 画像の左端を合わせるため、余白をなくす */
-  z-index: 1;  /* メインコンテンツの領域内に収めるためにz-indexを指定 */
 }
 
 /* サイト全体の文字色を黒に設定 */
