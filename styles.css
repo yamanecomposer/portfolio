@@ -77,6 +77,7 @@ section a:hover {
 
 /* メディアクエリ　スマホ用のスタイル（画面幅が小さい時） */
 @media screen and (max-width: 768px) {
+  /* ナビゲーション全体をフレックスボックスで配置 */
   nav {
     width: 100%; /* メニューの幅を全画面に広げる */
     display: flex; /* 横並びにする */
@@ -86,28 +87,31 @@ section a:hover {
     top: 0;  /* 上に寄せる */
     left: 0;  /* 左端に寄せる */
   }
-
+  
+  /* ナビゲーションの1列目（画像とh1） */
   .nav-logo {
     width: 40px;  /* スマホで小さくする画像サイズ */
     height: auto; /* 高さは自動調整 */
     margin-right: 10px; /* 画像と文字の間に少しスペースを追加 */
     max-width: 100%; /* 親要素に合わせて画像サイズを縮小 */
   }
-
+  
   nav h1 {
     font-size: 18px; /* タイトルを小さく */
     margin-bottom: 0px;
     margin: 0; /* 余計なマージンを取り除く */
   }
 
+  /* ナビメニューの2列目（メニューリンク） */
   nav ul {
     display: flex;
-    flex-direction: row; /* メニュー項目を横並びに */
-    margin-top: 0;
+    list-style: none;         /* デフォルトのリストスタイルを削除 */
+    padding-left: 0;          /* 左側の余白を取り除く */
+    margin-left: 20px;        /* 画像とh1から少し離す */
   }
 
   nav ul li {
-    margin: 0 10px;
+    margin: 0 10px;        /* リンク間にスペースを追加 */
   }
 
   nav ul li a {
