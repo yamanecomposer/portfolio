@@ -22,8 +22,6 @@ nav {
   margin: 0;
   padding: 0px;
   position: fixed;
-  height: 100%; /* 画面いっぱいにメニューを固定 */
-  z-index: 1000; /* メニューが他のコンテンツの上に来るように */
 }
 
 /* ナビゲーションのロゴ（画像） */
