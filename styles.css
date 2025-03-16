@@ -8,7 +8,6 @@ body {
   background-color: white;
   color: black;
   font-size: 14px;
-  overflow-x: hidden; /* 横スクロールを防ぐ */
 }
 
 /* ナビゲーションメニュー */
