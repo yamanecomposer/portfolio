@@ -87,7 +87,7 @@ section a:hover {
     height: 100%;  /* 高さを100%に設定 */
     margin: 0; /* マージンをゼロに設定 */
     padding: 0; /* パディングをゼロに設定 */
-    position: relative; /* 固定しない */
+    position: fixed;   /* スクロールしてもナビが画面に固定される */
     top: 0;  /* 上に寄せる */
     left: 0;  /* 左端に寄せる */
   }
