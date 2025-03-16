@@ -77,8 +77,8 @@ section-img {
   }
 
   nav img {
-    width: 80px; /* 画像を小さく */
-    margin-bottom: 10px;
+    width: 40px; /* 画像を小さく */
+    margin-bottom: 0px;
   }
 
   nav h1 {
