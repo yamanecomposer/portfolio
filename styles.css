@@ -65,7 +65,7 @@ section {
 
 /* メインエリアの画像設定 */
 section img {
-  max-width: calc(100% - 220px);  /* ナビゲーションの幅を差し引いた幅に調整 */
+  margin-left: 220px; /* メニューの幅を避ける */
   height: auto;
   display: block;
   margin-left: 0;  /* 画像の左端を合わせるため、余白をなくす */
