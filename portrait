@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akiko Yamane, portrait</title>
+  <link rel="stylesheet" href="styles.css"> <!-- CSSファイルをリンク -->
+</head>
+<body>
+  <div class="container">
+    <!-- ナビゲーションエリア -->  
+<div id="nav"></div>
+    
+    <!-- メインコンテンツエリア -->
+<section>
+    <h1>portrait</h1>
+    <p style="margin: 0; padding: 0;"><a href="https://akikoyamane.github.io/kawaii-notes/bio.html">back to bio</a></p>
+<div style="height: 30px;"></div>
+  
+    <p>Akiko Yamane</p>
+    <img src="images/Akiko Yamane portrait1" alt="Akiko Yamane" class="section-image" width="555">
+    <p>Photographed by Ayano Sudo (2024)</p>
+<div style="height: 20px;"></div>
+    <img src="images/Akiko Yamane portrait2" alt="Akiko Yamane" class="section-image" width="555">
+    <p>Photographed by Ayano Sudo (2024)</p>
+</section>
+
+
+<script> <!-- JavaScriptを最後に配置 --> 
+  fetch("nav.html")
+    .then(response => response.text())
+    .then(data => document.getElementById("nav").innerHTML = data);
+</script>
+
+  </div>
+</body>
+</html>
