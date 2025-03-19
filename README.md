@@ -1,3 +1,3 @@
 # kawaii-notes
-label site📃
-https://akikoyamane.github.io/kawaii-notes/
+offisial site🎧
+https://yamanecomposer.github.io/portfolio/
