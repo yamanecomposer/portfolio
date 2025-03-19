@@ -35,6 +35,7 @@ nav {
   position: fixed;
   top: 0;
   left: calc(50% - 600px); /* コンテナの左端にナビを固定 */
+  transform: translateX(0);
 }
 
 /* ナビゲーションのロゴ（画像） */
