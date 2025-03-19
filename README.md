@@ -1,3 +1,2 @@
-# kawaii-notes
-offisial site🎧
+# offisial site🎧
 https://yamanecomposer.github.io/portfolio/
