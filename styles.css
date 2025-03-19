@@ -84,7 +84,7 @@ nav a:hover {
 /* メインコンテンツのレイアウト */
 section {
   width: 100%;
-  margin-left: 180px; /* ナビの幅 + 余白 */
+  margin-left: 200px; /* ナビの幅 + 余白 */
 }
 
 /* メインエリアの画像設定 */
