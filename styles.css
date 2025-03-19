@@ -19,7 +19,6 @@ body {
   padding: 20px;  /* 周囲に少し余白を追加 */
   display: flex;
   justify-content: center; /* 中央寄せ */
-  position: relative; /* ナビを中央寄せするための基準 */
 }
 
 /* ナビゲーションメニュー */
@@ -35,8 +34,7 @@ nav {
   padding: 10px;
   position: fixed;
   top: 0;
-  left: 50%; /* 画面の中央基準に */
-  transform: translateX(-500px); /* 1000pxのコンテナを考慮して左へずらす */
+  left: max(50vw - 500px, 10px); /* 画面中央基準で調整 */
 }
 
 /* ナビゲーションのロゴ（画像） */
@@ -85,8 +83,8 @@ nav a:hover {
 
 /* メインコンテンツのレイアウト */
 section {
-  width: calc(100% - 200px);
-  padding-left: 20px; /* ナビとの余白 */
+  width: 100%;
+  margin-left: 220px; /* ナビの幅 + 余白 */
 }
 
 /* メインエリアの画像設定 */
@@ -114,14 +112,14 @@ a {
   }
   
   nav {
-    width: 100%;
-    height: auto;
-    position: relative; /* 固定を解除して通常配置 */
-    display: flex;
-    flex-direction: row;  /* 横並びに変更！ */
-    justify-content: center;
-    align-items: center;  /* 中央揃え */
-    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0; /* スマホでは画面左端に配置 */
+    width: 100%; /* 幅いっぱい */
+    height: auto; /* 高さは自動 */
+    flex-direction: row; /* 横並び */
+    justify-content: space-around; /* メニューを均等配置 */
+    padding: 10px;
   }
 
   .nav-logo1 {
@@ -156,7 +154,7 @@ a {
   /* メインセクション */
   section {
     margin-top: 40px;
-    margin-left: 5px;
+    margin-left: 0px;
     width: 100%; /* 画面いっぱい使う */
   }
   
