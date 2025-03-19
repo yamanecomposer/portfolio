@@ -17,6 +17,7 @@ body {
   justify-content: center; /* 💡 メインとナビを中央寄せ */
   max-width: 1200px;
   margin: 0 auto; /* 💡 画面中央に配置！ */
+  position: relative; /* 💡 `nav` の基準点になる */
 }
 
 /* ページ全体を中央に配置するコンテナ */
@@ -31,9 +32,8 @@ body {
 
 /* ナビゲーションメニュー */
 nav {
-  position: fixed;  /* 💡 スクロールしても動かない！ */
+  position: sticky; /* 💡 スクロールしても固定 */
   top: 0;
-  left: 0; /* 💡 画面の左端に固定 */
   width: 180px; /* ナビの幅 */
   height: 100vh;
   background-color: white;
@@ -94,7 +94,6 @@ section {
   flex-grow: 1;  /* 💡 ナビの横のスペースを全部使う！ */
   max-width: 1000px;
   padding: 20px;
-  margin-left: 180px; /* 💡 ナビの幅だけ余白をつける */
 }
 
 /* メインエリアの画像設定 */
