@@ -31,7 +31,10 @@ body {
 
 /* ナビゲーションメニュー */
 nav {
-  position: static;  /* 💡 自然に `.wrapper` の左側に配置 */
+  position: fixed;  /* 💡 スクロールしても動かない！ */
+  top: 0;
+  left: 50%; /* 💡 画面の中央を基準にする */
+  transform: translateX(-600px); /* 💡 そこから左にズラしてピッタリ配置 */
   width: 180px; /* ナビの幅 */
   height: 100vh;
   background-color: white;
@@ -92,6 +95,7 @@ section {
   flex-grow: 1;  /* 💡 ナビの横のスペースを全部使う！ */
   max-width: 1000px;
   padding: 20px;
+  margin-left: 180px; /* 💡 ナビの幅だけ余白をつける */
 }
 
 /* メインエリアの画像設定 */
