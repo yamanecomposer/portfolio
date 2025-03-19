@@ -116,7 +116,7 @@ a {
     top: 0;
     left: 0; /* スマホでは画面左端に配置 */
     width: 100%; /* 幅いっぱい */
-    height: 50px; /* ナビの高さを固定 */
+    height: 70px; /* ナビの高さを固定 */
     flex-direction: row; /* 横並び */
     justify-content: space-around; /* メニューを均等配置 */
     padding: 10px;
