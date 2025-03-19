@@ -23,7 +23,7 @@ body {
 /* ページ全体を中央に配置するコンテナ */
 .container {
   width: 90%;  /* 画面幅の90% */
-  max-width: 1200px;  /* 最大幅を1000px */
+  max-width: 1000px;  /* 最大幅を1000px */
   margin: 0 auto;  /* 左右の余白を自動調整して中央に配置 */
   padding: 20px;  /* 周囲に少し余白を追加 */
   display: flex;
