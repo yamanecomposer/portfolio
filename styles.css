@@ -29,7 +29,7 @@ nav {
   flex-direction: column;  /* 縦並び！ */
   align-items: flex-start;
   text-align: left;
-  position: relative;
+  position: fixed;
   height: auto; /* 高さは自動調整 */
   top: 0;
   left: 0;
