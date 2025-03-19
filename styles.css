@@ -17,7 +17,6 @@ body {
   justify-content: flex-start;
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: 200px; /* ナビの分を確保 */
   position: relative; /* ナビの基準点 */
 }
 
@@ -33,7 +32,7 @@ body {
 
 /* ナビゲーションメニュー */
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0; /* `.wrapper` の左端に配置 */
   transform: translateX(-600px); /* そこから左にずらす */
@@ -46,6 +45,8 @@ nav {
   align-items: flex-start;
   text-align: left;
   padding: 10px;
+  transform: none; /* 💡 ここを修正！（画面外に飛ばないように） */
+  z-index: 1000; /* 他の要素より前面に表示 */
 
 }
 
@@ -97,6 +98,7 @@ nav a:hover {
 section {
   width: calc(100% - 200px); /* ナビの分だけメインを縮める */
   max-width: 1000px;
+  margin-left: 200px; /* 💡 ナビのぶん左にずらしてバランス調整 */
   padding: 20px;
 }
 
@@ -121,7 +123,6 @@ a {
 @media screen and (max-width: 768px) {
   .wrapper {
     flex-direction: column;
-    padding-left: 0; /* ナビの余白をなくす */
   }
   
   .container {
