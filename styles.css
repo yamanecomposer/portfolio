@@ -23,7 +23,7 @@ body {
 
 /* ナビゲーションメニュー */
 nav {
-  width: 200px; /* ナビの幅 */
+  width: 180px; /* ナビの幅 */
   background-color: white;
   color: black;
   display: flex;
