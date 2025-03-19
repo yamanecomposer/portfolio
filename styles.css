@@ -17,6 +17,7 @@ body {
   justify-content: flex-start;
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 180px;  /* 💡 ナビの幅を確保！ */
 }
 
 /* ページ全体を中央に配置するコンテナ */
@@ -31,7 +32,9 @@ body {
 
 /* ナビゲーションメニュー */
 nav {
-  position: static;  /* 💡 自然に `.wrapper` の左側に配置 */
+  position: fixed;  /* 💡 画面の左端に固定！ */
+  top: 0;
+  left: 0;
   width: 180px; /* ナビの幅 */
   height: 100vh;
   background-color: white;
