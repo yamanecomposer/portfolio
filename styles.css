@@ -127,7 +127,7 @@ a {
     top: 0;
     left: 0; /* スマホでは画面左端に配置 */
     width: 100%; /* 幅いっぱい */
-    height: 70px; /* ナビの高さを固定 */
+    height: 75px; /* ナビの高さを固定 */
     flex-direction: row; /* 横並び */
     justify-content: space-around; /* メニューを均等配置 */
     padding: 10px;
@@ -165,7 +165,7 @@ a {
     
   /* メインセクション */
   section {
-    padding-top: 70px; /* ナビの高さ + 余白分を確保して、隠れないようにする */
+    padding-top: 80px; /* ナビの高さ + 余白分を確保して、隠れないようにする */
     margin-left: 0px;
     width: 100%; /* 画面いっぱい使う */
   }
