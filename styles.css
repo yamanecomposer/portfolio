@@ -41,7 +41,7 @@ nav {
   flex-direction: column;  /* 縦並び！ */
   align-items: flex-start;
   text-align: left;
-  padding: 10px;
+  padding: 0px;
 }
 
 /* ナビゲーションのロゴ（画像） */
@@ -97,7 +97,7 @@ section {
 /* メインエリアの画像設定 */
 section-img {
   max-width: 100%; /* 画像がコンテナ内に収まるように */
-  margin-left: 20px; /* 文字の開始位置と合わせるための余白 */
+  margin-left: 0px; /* 文字の開始位置と合わせるための余白 */
   height: auto;
   display: block;
 }
