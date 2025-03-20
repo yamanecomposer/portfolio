@@ -25,6 +25,7 @@ body {
 /* ページ全体を中央に配置するコンテナ */
 .container {
   max-width: 1000px;  /* 最大幅を1000px */
+  width: 90%;  /* 画面幅の90% */
   margin: 0 auto;  /* 左右の余白を自動調整して中央に配置 */
   display: flex;
   justify-content: center; /* 中央寄せ */
