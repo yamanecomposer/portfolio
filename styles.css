@@ -125,12 +125,8 @@ a {
     padding-top: 20px;
     z-index: 1000; /* メインの上にくるように */
   }
-
-  .nav-logo1 {
-    display: none; /* h1を非表示にする */
-  }
   
-  .nav-logo2 {
+  .nav-logo {
     display: block;
     width: 80px;
     height: auto;
