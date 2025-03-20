@@ -100,6 +100,7 @@ section-img {
   height: auto;
   display: block;
   object-fit: contain;
+  justify-content: center;
 }
 
 section a:hover {
