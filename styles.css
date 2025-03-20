@@ -93,14 +93,17 @@ nav a:hover {
 /* メインコンテンツのレイアウト */
 section {
   flex-grow: 1;  /* 💡 ナビの横のスペースを全部使う！ */
-  max-width: 100%;  /* 親要素の幅に収まるように */
+  max-width: 820px;  /* 💡 ナビの幅 (180px) を考慮して1000px - 180px */
+  width: 100%;  /* 💡 画面幅が狭くなったときに縮小 */
 }
 
 /* メインエリアの画像設定 */
 section-img {
   max-width: 100%;  /* 親要素の幅に収まるように */
-  height: auto;
-  object-fit: scale-down;
+  width: auto;  /* 💡 画像の元のアスペクト比を維持 */
+  height: auto;  /* 💡 縦横比を崩さず縮小 */
+  display: block;  /* 💡 画像の余白をなくす */
+  margin: 0 auto;  /* 💡 画像を中央寄せ */
 }
 
 section a:hover {
