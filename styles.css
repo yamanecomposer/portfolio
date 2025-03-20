@@ -96,7 +96,7 @@ section {
 
 /* メインエリアの画像設定 */
 section-img {
-  max-width: 100%; /* 画像がコンテナ内に収まるように */
+  max-width: min(100%, 1000px);
   height: auto;
   display: block;
   object-fit: contain;
