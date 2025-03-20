@@ -47,23 +47,12 @@ nav {
 }
 
 /* ナビゲーションのロゴ（画像） */
-.nav-logo1 {
+.nav-logo {
   width: 150px;  /* 画像の横幅を150pxに */
   height: auto;  /* アスペクト比を保ったまま高さを自動調整 */
   display: block; /* 画像をブロック要素にして改行 */
   margin-left: 0; /* まずは余計な余白をなくす */
-  margin: 0 auto 20px; /* 上下の余白を調整（下に20pxの余白） */
-  margin: 0;
-  padding: 0;
-}
-
-/* ナビゲーションのロゴ（画像） */
-.nav-logo2 {
-  width: 150px;  /* 画像の横幅を150pxに */
-  height: auto;  /* アスペクト比を保ったまま高さを自動調整 */
-  display: block; /* 画像をブロック要素にして改行 */
-  margin-left: 0; /* まずは余計な余白をなくす */
-  margin: 0 auto 20px; /* 上下の余白を調整（下に20pxの余白） */
+  margin: 20px auto 20px; /* 上下の余白を調整（下に20pxの余白） */
   margin: 0;
   padding: 0;
 }
