@@ -18,7 +18,7 @@ body {
   max-width: 1200px;
   margin: 0 auto; /* 💡 画面中央に配置！ */
   position: relative; /* 💡 nav の基準点になる */
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 /* ページ全体を中央に配置するコンテナ */
