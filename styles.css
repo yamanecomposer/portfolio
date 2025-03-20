@@ -15,7 +15,7 @@ body {
 .wrapper {
   display: flex;
   justify-content: center; /* 💡 メインとナビを中央寄せ */
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto; /* 💡 画面中央に配置！ */
   position: relative; /* 💡 nav の基準点になる */
   margin-top: 20px;
