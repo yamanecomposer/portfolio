@@ -98,7 +98,6 @@ section {
 section-img {
   max-width: 1000px;
   height: auto;
-  display: block;
   object-fit: contain;
   justify-content: center;
 }
