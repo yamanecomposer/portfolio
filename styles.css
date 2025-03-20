@@ -100,7 +100,6 @@ section {
 section-img {
   max-width: 100%;  /* 親要素の幅に収まるように */
   height: auto;
-  object-fit: contain;
 }
 
 section a:hover {
