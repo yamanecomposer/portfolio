@@ -180,7 +180,7 @@ body {
 
 .no-margin {
   margin-bottom: 0; /* 余白をなくす */
-  line-height: 1; /* 行間を最小にする */
+  padding-bottom: 0;
 }
 
 /* フッター */
