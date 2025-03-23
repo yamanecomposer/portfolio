@@ -182,6 +182,10 @@ body {
   display: inline; /* インライン化して余白をなくす */
 }
 
+p {
+  margin: 0;
+}
+
 /* フッター */
 footer {
   text-align: center;
