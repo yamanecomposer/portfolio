@@ -1,7 +1,11 @@
 /* 全体のスタイル */
 /* 通常のデスクトップ表示（画面が広いとき） */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+}
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Noto Sans JP', 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   background-color: white;
