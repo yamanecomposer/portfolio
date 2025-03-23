@@ -179,8 +179,7 @@ body {
 }
 
 .no-margin {
-  margin-bottom: 0; /* 余白をなくす */
-  padding-bottom: 0;
+  display: inline; /* インライン化して余白をなくす */
 }
 
 /* フッター */
