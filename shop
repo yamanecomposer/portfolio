@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akiko Yamane, shop</title>
+  <link rel="stylesheet" href="styles.css"> <!-- CSSファイルをリンク -->
+</head>
+<body>
+    <div class="container">
+    <!-- ここにページのコンテンツを追加 -->
+    <div id="nav"></div>  <!-- ナビをここに挿入する -->
+
+<section>
+    <h1>shop</h1>
+    <div style="height: 60px;"></div>
+    <p>scores PDF</p>
+    <p>CD, Goods</p>
+</section>
+
+
+<script> <!-- JavaScriptを最後に配置 --> 
+  fetch("nav.html")
+    .then(response => response.text())
+    .then(data => document.getElementById("nav").innerHTML = data);
+</script>
+
+  </div>
+</body>
+</html>
