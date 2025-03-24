@@ -97,6 +97,20 @@ section {
   display: block;  /* 💡 画像の余白をなくす */
 }
 
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 の比率 */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 section a:hover {
   color: gray; /* ホバー時にグレーにする */
 }
@@ -167,20 +181,8 @@ a {
     max-width: 100%;  /* 親要素の幅に収まるように */
     height: auto;  /* 縦横比を保って自動で調整 */
   }
-
-  .video-container {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 の比率 */
 }
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+  
 
 /* サイト全体の文字色を黒に設定 */
 body {
