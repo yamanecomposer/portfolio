@@ -91,7 +91,7 @@ section {
 }
 
 /* メインエリアの画像設定 */
-.section-img {
+.section-image {
   max-width: 850px;  /* 親要素の幅に収まるように */
   height: auto;  /* 💡 縦横比を崩さず縮小 */
   display: block;  /* 💡 画像の余白をなくす */
