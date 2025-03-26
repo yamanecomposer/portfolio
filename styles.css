@@ -22,7 +22,7 @@ body {
   width: 90%;  /* 画面幅の90% */
   margin: 0 auto; /* 💡 画面中央に配置！ */
   position: relative; /* 💡 nav の基準点になる */
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 /* ページ全体を中央に配置するコンテナ */
