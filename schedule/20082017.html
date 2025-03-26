@@ -283,8 +283,8 @@ premiere / トーキョーワンダーサイト本郷 19h
 </section>
 
 
-<script> <!-- JavaScriptを最後に配置 --> 
-  fetch("nav.html")
+<script>   // JavaScriptを最後に配置
+  fetch("/nav.html")
     .then(response => response.text())
     .then(data => document.getElementById("nav").innerHTML = data);
 </script>
