@@ -1,8 +1,6 @@
 /* 全体のスタイル */
 /* 通常のデスクトップ表示（画面が広いとき） */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=BIZ UDPゴシック:wght@400;700&display=swap');
-
 body {
   font-family: 'Ariel', sans-serif;
   margin: 0;
