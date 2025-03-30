@@ -14,16 +14,6 @@ body {
   overflow-x: hidden;
 }
 
-* 🌟 ナビとメインを一緒に中央寄せするラッパー */
-.wrapper {
-  display: flex;
-  justify-content: center; /* 💡 メインとナビを中央寄せ */
-  max-width: 1000px;
-  width: 90%;  /* 画面幅の90% */
-  margin: 0 auto; /* 💡 画面中央に配置！ */
-  position: relative; /* 💡 nav の基準点になる */
-}
-
 /* ページ全体を中央に配置するコンテナ */
 .container {
   display: flex;
@@ -31,6 +21,7 @@ body {
   max-width: 1000px;  /* 最大幅を1000px */
   width: 90%;  /* 画面幅の90% */
   margin: 0 auto;  /* 左右の余白を自動調整して中央に配置 */
+  position: relative; /* 💡 nav の基準点になる */
 }
 
 /* ナビゲーションメニュー */
