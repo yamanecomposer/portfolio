@@ -26,18 +26,19 @@ body {
 
 /* ナビゲーションメニュー */
 nav {
-  position: sticky; /* 💡 スクロールしても固定 */
+  position: fixed;
   top: 0;
-  width: 180px; /* ナビの幅 */
-  height: 100vh;
+  left: 0; 
+  width: 100%; /* 幅いっぱい */
+  height: 90px; /* ナビの高さを固定 */
   background-color: white;
   color: black;
   display: flex;
-  flex-direction: column;  /* 縦並び！ */
+  flex-direction: row; /* 横並び */
   align-items: flex-start;
   text-align: left;
-  padding: 0px;
   padding-top: 40px;
+  z-index: 1000; /* メインの上にくるように */
 }
 
 /* ナビゲーションのロゴ（画像） */
@@ -114,10 +115,7 @@ a {
 
 /* メディアクエリ　スマホ用のスタイル（画面幅が小さい時） */
 @media screen and (max-width: 750px) {
-  .wrapper {
-    flex-direction: column;
-  }
-  
+
   .container {
     display: flex;
     flex-direction: column;  /* スマホでは縦並び */
@@ -194,14 +192,6 @@ body {
 
 p {
   margin: 0;
-}
-
-/* フッター */
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: white;
-  color: black;
 }
 
 
