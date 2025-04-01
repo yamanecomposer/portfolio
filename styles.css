@@ -31,12 +31,7 @@ nav {
   left: 0; 
   width: 100%; /* 幅いっぱい */
   height: 90px; /* ナビの高さを固定 */
-  background-color: white;
-  color: black;
-  display: flex;
   flex-direction: row; /* 横並び */
-  align-items: flex-start;
-  text-align: left;
   padding-top: 40px;
   z-index: 1000; /* メインの上にくるように */
 }
