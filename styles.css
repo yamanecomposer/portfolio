@@ -117,7 +117,8 @@ a {
   nav {
     position: fixed;
     top: 0;
-    left: 0; /* スマホでは画面左端に配置 */
+    left: 0;
+    background-color: white;
     width: 100%; /* 幅いっぱい */
     height: 90px; /* ナビの高さを固定 */
     flex-direction: row; /* 横並び */
@@ -186,6 +187,55 @@ body {
 p {
   margin: 0;
 }
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.card h3 {
+  margin: 16px 0 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.section-heading {
+  grid-column: 1 / -1; /* 全列にまたがる */
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 
 
 
