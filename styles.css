@@ -197,7 +197,6 @@ p {
 
 .card {
   background: white;
-  border-radius: 8px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
@@ -232,7 +231,6 @@ p {
   font-size: 24px;
   font-weight: bold;
   margin: 20px 0;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
