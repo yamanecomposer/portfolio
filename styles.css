@@ -73,7 +73,7 @@ section {
   margin-left: 150px; 
   max-width: 850px;
   width: 100%;  /* 💡 画面幅が狭くなったときに縮小 */
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .section-image {
