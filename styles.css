@@ -28,6 +28,7 @@ nav {
   left: 1px; 
   width: 180px;
   height: 100vh;
+  display: flex; 
   flex-direction: row; /* 横並び */
   justify-content: space-around; /* メニューを均等配置 */
   padding-top: 40px;
@@ -69,7 +70,6 @@ nav a:hover {
 /* メインコンテンツのレイアウト */
 section {
   flex-grow: 1;  /* 💡 ナビの横のスペースを全部使う！ */
-  display: flex;
   left: 180px; 
   max-width: 820px;
   width: 100%;  /* 💡 画面幅が狭くなったときに縮小 */
