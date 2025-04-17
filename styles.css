@@ -205,7 +205,7 @@ p {
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  color: gray; /* ホバー時にグレーにする */
 }
 
 .card img {
