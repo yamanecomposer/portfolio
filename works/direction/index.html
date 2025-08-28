@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akiko Yamane, works</title>
-  <link rel="stylesheet" href="/styles.css"> <!-- CSSファイルをリンク -->
+  <link rel="stylesheet" href="../../styles.css"> <!-- CSSファイルをリンク -->
 </head>
 <body>
     <div class="container">
@@ -17,7 +17,7 @@
 <section>
     <h1><a href="../index.html">works</a></h1>
     <div style="height: 30px;"></div>
-    <h2><a href="index.html">Composition</a> / <a href="direction.html">Direction</a> / <a href="artwork.html">ArtWorks</a> / <a href="textscore.html">TextScore</a></h2>
+    <h2><a href="../composition/">Composition</a> / <a href="index.html">Direction</a> / <a href="../artwork/">ArtWorks</a> / <a href="../textscore/">TextScore</a></h2>
     <div style="height: 30px;"></div>
   
     <h2>Direction</h2>
@@ -31,7 +31,7 @@
 
 
 <script> <!-- JavaScriptを最後に配置 --> 
-  fetch("/nav.html")
+  fetch("../../nav.html")
     .then(response => response.text())
     .then(data => document.getElementById("nav").innerHTML = data);
 </script>
