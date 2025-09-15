@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link rel="icon" href="../../../favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../apple-touch-icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akiko Yamane, works</title>
+  <link rel="stylesheet" href="../../../styles.css"> <!-- CSSファイルをリンク -->
+</head>
+<body>
+    <div class="container">
+    <!-- ナビゲーションエリア -->  
+    <div id="nav"></div>
+    
+    <!-- メインコンテンツエリア -->
+<section>
+    <h1><a href="../../index.html">works</a></h1>
+    <div style="height: 30px;"></div>
+    <h2>State No. 4</h2>
+    <p>状態 No. 4 (2024)</p>
+    <div style="height: 50px;"></div>
+  
+    <p>Play several rhythm patterns at different tempo at the same time.</p>
+    <p>速度の異なる複数のリズムパターンを同時に鳴らす</p>
+    <p><a href="https://drive.google.com/file/d/1SjSEIvdh5b1KxqOcVGTOyYTsvsiJH8Uy/view" target="_blank"><b>[SCORE]</b></a></p> 
+    <div style="height: 50px;"></div>
+
+    <div style="max-width:400px;">
+     <iframe
+       src="https://www.youtube.com/embed/6gu44SDZKM8?si=vPFO12qVwS6qKeMO"
+       title="YouTube video player"
+       style="width:100%; aspect-ratio:16/9; border:0;"
+       allowfullscreen
+     ></iframe>
+    </div>
+    <p>premiered as an installation by Akiko Yamane</p>
+    <p>29. May 2024 - 15. June 2024,  +1art Osaka</p>
+    <div style="height: 50px;"></div>
+  
+    <p><a href="index.html">back to State</a></p>
+    <div style="height: 100px;"></div>
+
+</section>
+
+
+<script> <!-- JavaScriptを最後に配置 --> 
+  fetch("../../../nav.html")
+    .then(response => response.text())
+    .then(data => document.getElementById("nav").innerHTML = data);
+</script>
+
+  </div>
+</body>
+</html>
