@@ -1,3 +1,3 @@
 # offisial site🎧🎀
-©︎Akiko Yamane 2025  
+©︎2025 Akiko Yamane All rights reserved  
 https://yamanecomposer.github.io/portfolio/
