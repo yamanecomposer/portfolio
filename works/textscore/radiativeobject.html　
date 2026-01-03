@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akiko Yamane, works</title>
+  <link rel="stylesheet" href="../../styles.css"> <!-- CSSファイルをリンク -->
+</head>
+<body>
+    <div class="container">
+    <!-- ナビゲーションエリア -->  
+    <div id="nav"></div>
+    
+    <!-- メインコンテンツエリア -->
+<section>
+    <h1><a href="../index.html">works</a></h1>
+    <div style="height: 30px;"></div>
+    <h1>radiative obect α</h1>
+    <p>光を放射するオブジェα (2010/2025)</p>
+    <p>for serpent (or any instrument(s))</p>
+    <div style="height: 50px;"></div>
+  
+    <p>Release arbitrary multiphonics into the performance space. Listen carefully to the released sound. Listen carefully to the space after the sound has resonated and faded. Repeat this process. Observe subtle diﬀerences. Observe how the space responds in diﬀerent ways.</p>
+    <div style="height: 30px;"></div>
+    <p>任意の重音を演奏空間に放つ。</p>
+    <p>放った⾳をよく聴く。</p>
+    <p>いま⾳が響いて、そして消えた空間をよく聴く。</p>
+    <p>そのプロセスを繰り返す。</p>
+    <p>繊細な差異を探す。</p>
+    <p>様々な空間の光り⽅を探す。</p>
+    <p><a href="https://drive.google.com/file/d/1IuMwLj3FlFIOiRfHAFvRwZ4eTo18a6w9/view?usp=sharing" target="_blank"><b>[SCORE]</b></a></p> 
+    <div style="height: 50px;"></div>
 
+    <p>commissioned by Shinya Hashimoto / 橋本晋哉委嘱作品</p>
+    <p>premiered by Shinya Hashimoto, June 15 2025</p>
+    <div style="height: 50px;"></div>
+
+    <p><a href="index.html">back to TextScore</a></p>
+    <div style="height: 100px;"></div>
+
+</section>
+
+
+<script> <!-- JavaScriptを最後に配置 --> 
+  fetch("../../nav.html")
+    .then(response => response.text())
+    .then(data => document.getElementById("nav").innerHTML = data);
+</script>
+
+  </div>
+</body>
+</html>
