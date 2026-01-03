@@ -27,7 +27,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 170px;          /* ← ロゴが大きいなら、まずバーを高くする */
+  height: 150px;          /* ← ロゴが大きいなら、まずバーを高くする */
   background: white;
   display: flex;
   align-items:  flex-start; 
@@ -39,7 +39,7 @@ body {
 
 /* 左上ロゴ */
 .nav-logo{
-  margin-top: -10px;   /* ロゴを少し上へ（マイナスで上がる） */
+  margin-top: -15px;   /* ロゴを少し上へ（マイナスで上がる） */
   width: 150px;  /* 画像の横幅を150pxに */
   height: auto;  /* アスペクト比を保ったまま高さを自動調整 */
   display: block; /* 画像をブロック要素にして改行 */
@@ -83,7 +83,8 @@ section {
   margin: 0 auto;   
   max-width: 850px;
   width: 100%;  /* 💡 画面幅が狭くなったときに縮小 */
-  padding-top: 170px;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 
