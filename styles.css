@@ -83,8 +83,7 @@ section {
   margin: 0 auto;   
   max-width: 850px;
   width: 100%;  /* 💡 画面幅が狭くなったときに縮小 */
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 140px;
 }
 
 
