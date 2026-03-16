@@ -176,10 +176,12 @@ a {
   }
   
   /* メインエリアの画像 */
-  .section-image {/Users/yamaneakiko/Downloads
-    max-width: 100%;  /* 親要素の幅に収まるように */
-    height: auto;  /* 縦横比を保って自動で調整 */
-  }
+.section-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
 }
   
 
