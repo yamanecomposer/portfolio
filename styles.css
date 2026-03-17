@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
+h1, h2 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+}
+
+
 body {
   font-family: 'Mulish', sans-serif;
   margin: 0;
