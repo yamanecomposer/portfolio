@@ -119,6 +119,10 @@ section a:hover {
   color: gray; /* ホバー時にグレーにする */
 }
 
+.card {
+  cursor: pointer; /* ← これを追加するとSafariがhoverを認識しやすくなる */
+}
+
 a {
   color: black; /* リンクの色を黒に */
   text-decoration: none; /* アンダーラインを消す */
