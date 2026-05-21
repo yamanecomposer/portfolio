@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>furniture music in pixel field</title>
+  <link rel="icon" href="fmipf.ico" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #FFF5FF;
+      --fg: #2a1a2e;
+      --muted: #9b7fa8;
+      --line: #d9c4de;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--fg);
+      font-family: 'EB Garamond', Georgia, serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .cover {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .title {
+      font-size: 0.78rem;
+      font-weight: 400;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    nav {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav a {
+      display: block;
+      padding: 0.9rem 0;
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--fg);
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid var(--line);
+      transition: color 0.2s ease, padding-left 0.2s ease;
+    }
+
+    nav a:first-child {
+      border-top: 1px solid var(--line);
+    }
+
+    nav a:hover {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img class="cover" src="furniture_01" alt="furniture music in pixel field">
+      <p class="title">furniture music<br>in pixel field</p>
+    </div>
+    <nav>
+      <a href="#" target="_blank" rel="noopener">Bandcamp</a>
+      <a href="#" target="_blank" rel="noopener">Apple Music</a>
+      <a href="#" target="_blank" rel="noopener">Spotify</a>
+      <a href="#" target="_blank" rel="noopener">Amazon Music</a>
+      <a href="#" target="_blank" rel="noopener">YouTube Music</a>
+    </nav>
+  </div>
+</body>
+</html>
