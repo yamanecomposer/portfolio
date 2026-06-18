@@ -16,9 +16,9 @@
 
     :root {
       --bg: #FFF5FF;
-      --fg: #000000;
-      --muted: #ed0077;
-      --line: #000000;
+      --fg: #2a1a2e;
+      --muted: #9b7fa8;
+      --line: #d9c4de;
     }
 
     html, body {
@@ -54,16 +54,17 @@
     }
 
     .cover {
-      width: 220px;
-      height: 220px;
+      width: 180px;
+      height: 180px;
       object-fit: cover;
       display: block;
     }
 
     .title {
-      font-size: 1rem;
+      font-size: 0.78rem;
       font-weight: 400;
       letter-spacing: 0.18em;
+      text-transform: uppercase;
       color: var(--muted);
       text-align: center;
       line-height: 1.6;
@@ -78,7 +79,7 @@
     nav a {
       display: block;
       padding: 0.9rem 0;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 400;
       color: var(--fg);
       text-decoration: none;
@@ -93,17 +94,18 @@
 
     nav a:hover {
       color: var(--muted);
+      padding-left: 0.5rem;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
-      <img class="cover" src="item_13.png" alt="item_13">
-      <p>furniture music in pixel field</p>
+      <img class="cover" src="item_13" alt="item_13">
+      <p class="title">furniture music<br>in pixel field</p>
     </div>
     <nav>
-      <a href="https://quulabel.bandcamp.com/album/furniture-music-in-pixel-field" target="_blank" rel="noopener">Bandcamp</a>
+      <a href="#" target="_blank" rel="noopener">Bandcamp</a>
       <a href="#" target="_blank" rel="noopener">Apple Music (7/7-)</a>
       <a href="#" target="_blank" rel="noopener">Spotify (7/7-)</a>
       <a href="#" target="_blank" rel="noopener">Amazon Music (7/7-)</a>
