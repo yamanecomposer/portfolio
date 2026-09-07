@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akiko Yamane, works</title>
+  <link rel="stylesheet" href="../../styles.css"> <!-- CSSファイルをリンク -->
+</head>
+<body>
+    <div class="container">
+    <!-- ナビゲーションエリア -->  
+    <div id="nav"></div>
+    
+    <!-- メインコンテンツエリア -->
+<section>
+    <h1><a href="../index.html">works</a></h1>
+    <div style="height: 30px;"></div>
+    <h1>fridge</h1>
+    <p>冷蔵庫</p>
+    <div style="height: 50px;"></div>
+
+    <p>supermarket fridge #1</p>
+    <p>Akiko Yamane, 2025</p>
+    <div style="height: 30px;"></div>
+    <p>I recorded the mechanical sound emitted from the refrigerators in the food section of a nearby supermarket. Using that recorded sound as the base, I layered square waves corresponding to its harmonics. On top of this, I added further square waves of different frequencies, as if painting over the sound with additional colors.</p>
+    <div style="height: 30px;"></div>
+    <p>Sound installation</p>
+    <p>Duration: multiple sound sources looped indeterminately</p>
+    <div style="height: 30px;"></div>
+  
+    <img src="images/fridge.jpeg" alt="fridge" class="section-image" width="400">
+    <div style="height: 10px;"></div>
+    <img src="images/fridge2.jpeg" alt="fridge" class="section-image" width="400">
+    <p>photo: Daisuke Yokoyama</p> 
+    <div style="height: 30px;"></div>
+
+    <p>スーパーマーケットの冷蔵庫 #1</p>
+    <p>山根明季子、2025</p>
+    <div style="height: 30px;"></div>
+    <p>家の近くにあるスーパーマーケットの食品売り場の冷蔵庫から発せられている機械音を録音し、そのベースとなっている音の自然倍音にあたる周波数を矩形波でいくつか重ねた。そして更に、色を塗り足すように異なる周波数の矩形波をいくつか重ねた。</p>
+    <div style="height: 30px;"></div>
+    <p>サウンドインスタレーション</p>
+    <p>時間: 複数不確定にループ</p>
+    <div style="height: 50px;"></div>
+  
+  
+    <p><a href="index.html">back to ArtWorks</a></p>
+    <div style="height: 100px;"></div>
+
+</section>
+
+
+<script> <!-- JavaScriptを最後に配置 --> 
+  fetch("../../nav.html")
+    .then(response => response.text())
+    .then(data => document.getElementById("nav").innerHTML = data);
+</script>
+
+  </div>
+</body>
+</html>
